@@ -20,6 +20,7 @@ module.exports = {
   ],
   rules: {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'no-return-assign': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'import/extensions': [
       'error',
