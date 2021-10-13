@@ -1,7 +1,0 @@
-html,
-body {
-  @apply container h-full;
-
-  font-size: 16px;
-  background: #930b12;
-}

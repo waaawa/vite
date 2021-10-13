@@ -1,0 +1,17 @@
+[user]
+	name=fancy-components
+	email=6666@66.com
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	hooksPath = .husky
+[remote "origin"]
+	url = git@gitee.com:fancy-components/home-page.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
